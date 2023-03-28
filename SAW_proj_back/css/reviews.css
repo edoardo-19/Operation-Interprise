@@ -1,0 +1,101 @@
+.background {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(../images/programs_background.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.page-title {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+}
+
+.reviews-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.review-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #a6d8f52c;
+  width: 75%;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  padding: 25px;
+}
+
+.first-half {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.review-card img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.review-user {
+  color: white;
+  font-size: 21px;
+}
+
+.second-half {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 65px 0px 65px;
+}
+
+.review-program {
+  font-weight: 300;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.review-program i {
+  color: #389ec6;
+}
+
+.review-title {
+  color: white;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.review-text {
+  color: white;
+  margin-bottom: 10px;
+  font-weight: 200;
+}
+
+.review-stars {
+  display: flex;
+  flex-direction: row;
+  color: #389ec6;
+}
+
+.button-div {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.button {
+  border-radius: 5px;
+}

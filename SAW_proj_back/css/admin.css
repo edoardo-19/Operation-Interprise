@@ -1,0 +1,218 @@
+.background-header {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(../images/shopping_background.png);
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+}
+
+.title {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.title h3 {
+  color: white;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f8ff1c;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.all-users {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: 50px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 3%;
+}
+
+.row {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-row {
+  background-color: #f0f8ff1c;
+  padding: 10px 25px;
+  border-radius: 20px;
+  box-shadow: 0 3px 7px rgb(0 0 0 / 0.4);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.user-info {
+  margin: 15px 15px 15px 0px;
+  color: white;
+  flex-basis: 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.button-container {
+  flex-basis: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.std-btn {
+  border-radius: 35px;
+}
+
+.std-btn.delete {
+  padding: 5px 12px;
+  border-radius: 50px;
+}
+
+.std-btn.delete:hover {
+  border: 1px solid #ec00003d;
+  background: #ec00003d;
+}
+
+.total-div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 25px;
+  background-color: #f0f8ff1c;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  box-shadow: 0 3px 7px rgb(0 0 0 / 0.4);
+  border-radius: 20px;
+  align-items: center;
+  text-align: center;
+  height: 15%;
+  justify-content: center;
+}
+
+.total-text {
+  color: white;
+  padding-top: 15px;
+  font-weight: 550;
+  font-size: 20px;
+}
+
+.total-number {
+  color: white;
+  padding: 15px;
+}
+
+.empty-cart-msg {
+  background-color: #f0f8ff1c;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  box-shadow: 0 3px 7px rgb(0 0 0 / 0.4);
+  border-radius: 20px;
+  padding: 20px 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  color: white;
+}
+
+.not-admin{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f8ff1c;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  box-shadow: 0 3px 7px rgb(0 0 0 / 0.4);
+  border-radius: 20px;
+  padding: 20px 25px;
+}
+
+.not-admin-text{
+  color: white;
+}
+
+.std-btn.sign-in {
+  width: 30%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+@media (max-width: 1600px) {
+  .card-content {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .all-users{
+    width: 85%;
+    margin-right: 50px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+  }
+
+  .total-div {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    flex-direction: row;
+    width: 40%;
+  }
+
+  .total-text {
+    padding: 0px;
+  }
+
+  .total-number {
+    font-size: 20px;
+    padding: 0px 0px 0px 15px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .user-row {
+    padding: 25px;
+    margin-top: 30px;
+  }
+
+  .user-info{
+    margin: 10px 0px;
+  }
+
+  .std-btn.delete{
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+}

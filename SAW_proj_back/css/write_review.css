@@ -1,0 +1,206 @@
+.background {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(../images/profileBackground2.jpg);
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+}
+  
+.card {
+  background-color: #f0f8ff1c;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  display: flex;
+  width: 65%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+  
+.card-content {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.program-name-div {
+  display: flex;
+  justify-content: start;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.program-name-italic {
+  color: #389ec6;
+}
+  
+.title-div {
+  display: flex;
+  justify-content: start;
+  margin-top: 25px;
+}
+
+.title-input-field {
+  background-color: #f0f8ff1c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding-left: 10px;
+  width: 50%;
+}
+
+.score-div {
+  display: flex;
+  justify-content: start;
+  margin-top: 15px;
+}
+
+.score-selection-field {
+  background-color: #f0f8ff1c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 10px;
+  width: 50%;
+}
+
+.text-div {
+  display: flex;
+  justify-content: start;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.text-input-field {
+  background-color: #f0f8ff1c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 3px 10px;
+  width: 100%;
+  height: 120px;
+  resize: vertical;
+}
+  
+.modifiers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.error-div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.error-card {
+  background-color: #ec00003d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+  width: 50%;
+  padding-bottom: 15px;
+}
+  
+.message-error {
+  color: white;
+  font-size: 15px;
+  margin: 15px 15px 0px 15px;
+}
+
+.message-error.error1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.access-Denied-card {
+  background-color: #ec00003d;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  display: flex;
+  width: 65%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+.access-Denied-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.access-Denied-title {
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.access-Denied-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f8ff1c;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  box-shadow: 0 3px 7px rgb(0 0 0 / 0.4);
+  width: 60%;
+  border-radius: 15px;
+}
+
+.above-button-text {
+  color: white;
+  text-align: center;
+  margin: 15px 20px 20px 20px;
+}
+
+.buttons-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.std-btn.AD-button {
+  width: 30%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} 

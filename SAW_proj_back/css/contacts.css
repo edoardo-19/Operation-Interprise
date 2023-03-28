@@ -1,0 +1,125 @@
+.background-header {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(../images/shopping_background.png);
+  position: absolute;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+}
+
+.title {
+  padding-top: 25px;
+  padding-left: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.title h3 {
+  color: white;
+}
+
+.card-bg {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f8ff1c;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 10%;
+}
+
+.items-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 50px;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.row {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.items-row {
+  background-color: #f0f8ff1c;
+  padding-left: 25px;
+  padding-right: 55px;
+  border-radius: 20px;
+  box-shadow: 0 3px 7px rgb(0 0 0 / 0.4);
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  color: white;
+}
+
+.item-img img {
+  height: 50px;
+  border-radius: 20%;
+  box-shadow: 0 3px 7px rgb(0 0 0 / 0.4);
+}
+
+.proceed {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  margin-top: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #f0f8ff1c;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  box-shadow: 0 3px 7px rgb(0 0 0 / 0.4);
+  border-radius: 20px;
+  text-align: center;
+  height: 15%;
+  padding-bottom: 25px;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.total {
+  color: white;
+  padding: 10px 10px;
+}
+
+.buy {
+  text-decoration: none;
+  color: white;
+}
+.std-btn {
+  border-radius: 35px;
+}
+.std-btn.delete {
+  padding: 5px 12px;
+  border-radius: 40px;
+  margin-left: 30px;
+}
+.std-btn.pad {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.std-btn.delete:hover {
+  border: 1px solid #ec00003d;
+  background: #ec00003d;
+}

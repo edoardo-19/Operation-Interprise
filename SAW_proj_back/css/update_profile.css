@@ -1,0 +1,175 @@
+.background {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(../images/profileBackground2.jpg);
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+}
+
+.card-bg {
+  background-color: #f0f8ff1c;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  display: flex;
+  width: 65%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+.profile-card {
+  margin-top: 75px;
+}
+
+.profile-content {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.row {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profilePic img {
+  height: 250px;
+}
+
+.column {
+  padding: 20px 12px;
+  box-sizing: border-box;
+  flex-basis: 75%;
+}
+
+.name {
+  text-align: left;
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.details-text {
+  text-align: left;
+  color: white;
+  font-size: 18px;
+  justify-content: center;
+}
+
+.details-column {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.user-content {
+  padding-bottom: 5px;
+}
+
+.modifiers {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logout:hover {
+  border: 1px solid #6d1520;
+  background: #6d1520;
+}
+
+.row-name {
+  display: flex;
+}
+
+.input-name {
+  background: transparent;
+  background-color: #f0f8ff1c;
+  border: none;
+  width: 40%;
+  padding-left: 5px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.input-data {
+  background: transparent;
+  background-color: #f0f8ff1c;
+  border: none;
+  padding: 3px 10px;
+  width: 80%;
+  margin-top: 8px;
+  border-radius: 10px;
+}
+
+.error-card {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.message-error {
+  background-color: #ec00003d;
+  width: 40%;
+  border-radius: 15px;
+  padding: 10px 10px;
+  color: white;
+  font-size: 15px;
+}
+
+@media (max-width: 1600px) {
+  .info-row {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1100px) {
+  .row {
+    flex-direction: column;
+  }
+  .input-name {
+    width: auto;
+    margin-top: 10px;
+  }
+  .info-row {
+    flex-direction: column;
+  }
+  .modifiers {
+    flex-direction: column;
+  }
+
+  .row-name {
+    flex-direction: column;
+  }
+  .card-bg {
+    height: 900px;
+  }
+
+  .background {
+    height: 1400px;
+  }
+  @media (max-width: 900px) {
+    .card-bg {
+      height: 900px;
+    }
+    .background {
+      height: 1400px;
+    }
+  }
+}
