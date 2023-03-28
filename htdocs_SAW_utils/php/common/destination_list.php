@@ -1,0 +1,9 @@
+<option value="agos">Agos</option>
+<option value="arasaka">Arasaka orbital station</option>
+<option value="crystal palace">Crystal palace</option>
+<option value="iss">ISS</option>
+<option value="mars">Mars</option>
+<option value="moon">Moon</option>
+<option value="mercury">Mercury</option>
+<option value="uranus">Uranus</option>
+<option value="venus">Venus</option>
